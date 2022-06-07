@@ -38,10 +38,10 @@
                         <td width="400">@auth.Desc</td>
                         <td >@auth.BtnText</td>
                         <td>@auth.BtnUrl</td>
-                        <td><img width="200" src="~/assets/img/slider/@auth.Image" /> </td>
+                        <td><img width="200" src="~/upload/slider/@auth.Image" /> </td>
                         <td >
                             <a asp-action="edit" asp-route-id="@auth.Id" class="btn btn-warning">Edit</a>
-                            <a asp-action="sweetdelete" asp-route-id="@auth.Id" class="btn btn-danger sweet-delete">Delete</a>
+                            <a asp-action="delete" asp-route-id="@auth.Id" class="btn btn-danger sweet-delete">Delete</a>
                         </td>
                     </tr>
                     }
